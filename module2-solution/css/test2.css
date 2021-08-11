@@ -4,7 +4,9 @@
 .row{
 	width:100%;
 }
-
+h1{
+  align:center;
+}
 .box{
 	border:1px solid black;
 	margin:5px;
