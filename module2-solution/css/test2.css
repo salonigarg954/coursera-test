@@ -1,3 +1,61 @@
 * {
   box-sizing: border-box
   }
+.row{
+	width:100%;
+}
+
+.box{
+	border:1px solid black;
+	margin:5px;
+	padding:5px;
+	background-color: cyan;
+	position:relative;
+}
+.section-title {
+	border:1px solid black;
+	padding:2px;
+	font-weight: bold;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+.chicken{
+background-color:orange;
+}
+.beef{
+background-color:yellow;
+}
+.sushi{
+background-color:lightgrey;
+}
+
+@media (min-width:992px){
+		
+	.col-lg-4{
+		float:left;
+		max-width:32% ;
+		} 
+	
+}
+
+@media (min-width:768px) and (max-width:991px ){
+
+	.col-md-6{
+		float:left;
+		max-width:48.9% ;
+		} 
+		.col-md-12{
+			float:left;
+			max-width:100%;
+		}
+}
+
+@media (max-width:767px ){
+	.col-sm-3{
+		float:left;
+		max-width:100% ;
+		} 
+
+}
+
