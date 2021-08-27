@@ -1,0 +1,20 @@
+.navbar-header{
+	height:100px;
+}
+#nav-list{
+	background-color: lightyellow;
+	color:black;
+	font-weight: bold;
+	text-align: center;
+}
+.red{
+	color:red;
+}
+#main{
+	height:1000px;
+	background-color: lightgrey;
+	color:black;
+}
+.content{
+	font-size: 1.5em;
+}
